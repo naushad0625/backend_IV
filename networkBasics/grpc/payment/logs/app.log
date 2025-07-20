@@ -1,0 +1,20 @@
+2025-07-20T11:33:38.049+06:00  INFO 34486 --- [payment] [Test worker] o.b.c.payment.PaymentApplicationTests    : Starting PaymentApplicationTests using Java 17.0.9 with PID 34486 (started by naushad in /home/naushad/Coding/intimation/backend-IV/backend_IV/networkBasics/grpc/payment)
+2025-07-20T11:33:38.053+06:00  INFO 34486 --- [payment] [Test worker] o.b.c.payment.PaymentApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-07-20T11:33:38.647+06:00  INFO 34486 --- [payment] [Test worker] o.s.grpc.server.NettyGrpcServerFactory   : Registered gRPC service: payment.PaymentService
+2025-07-20T11:33:38.647+06:00  INFO 34486 --- [payment] [Test worker] o.s.grpc.server.NettyGrpcServerFactory   : Registered gRPC service: grpc.reflection.v1.ServerReflection
+2025-07-20T11:33:38.648+06:00  INFO 34486 --- [payment] [Test worker] o.s.grpc.server.NettyGrpcServerFactory   : Registered gRPC service: grpc.health.v1.Health
+2025-07-20T11:33:38.752+06:00  INFO 34486 --- [payment] [Test worker] o.s.g.s.lifecycle.GrpcServerLifecycle    : gRPC Server started, listening on address: [/[0:0:0:0:0:0:0:0]:9090]
+2025-07-20T11:33:38.764+06:00  INFO 34486 --- [payment] [Test worker] o.b.c.payment.PaymentApplicationTests    : Started PaymentApplicationTests in 0.957 seconds (process running for 1.844)
+2025-07-20T11:33:39.380+06:00  INFO 34486 --- [payment] [SpringApplicationShutdownHook] o.s.g.s.lifecycle.GrpcServerLifecycle    : Completed gRPC server shutdown
+2025-07-20T11:33:40.451+06:00  INFO 34580 --- [payment] [main] o.b.c.payment.PaymentApplication         : Starting PaymentApplication using Java 17.0.9 with PID 34580 (/home/naushad/Coding/intimation/backend-IV/backend_IV/networkBasics/grpc/payment/build/classes/java/main started by naushad in /home/naushad/Coding/intimation/backend-IV/backend_IV/networkBasics/grpc/payment)
+2025-07-20T11:33:40.453+06:00  INFO 34580 --- [payment] [main] o.b.c.payment.PaymentApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-20T11:33:40.984+06:00  INFO 34580 --- [payment] [main] o.s.grpc.server.NettyGrpcServerFactory   : Registered gRPC service: payment.PaymentService
+2025-07-20T11:33:40.985+06:00  INFO 34580 --- [payment] [main] o.s.grpc.server.NettyGrpcServerFactory   : Registered gRPC service: grpc.reflection.v1.ServerReflection
+2025-07-20T11:33:40.985+06:00  INFO 34580 --- [payment] [main] o.s.grpc.server.NettyGrpcServerFactory   : Registered gRPC service: grpc.health.v1.Health
+2025-07-20T11:33:41.076+06:00  INFO 34580 --- [payment] [main] o.s.g.s.lifecycle.GrpcServerLifecycle    : gRPC Server started, listening on address: [/[0:0:0:0:0:0:0:0]:9090]
+2025-07-20T11:33:41.087+06:00  INFO 34580 --- [payment] [main] o.b.c.payment.PaymentApplication         : Started PaymentApplication in 0.997 seconds (process running for 1.229)
+2025-07-20T11:34:46.770+06:00  INFO 34580 --- [payment] [grpc-default-executor-1] o.b.c.payment.PaymentService             : 🔄 Processing payment for order abc122
+2025-07-20T11:34:51.796+06:00  INFO 34580 --- [payment] [grpc-default-executor-1] o.b.c.payment.PaymentService             : ✅ Payment processed for order abc122, Transaction ID: 01ddd1ac-98ca-4676-a46f-6c2354ba8683
+2025-07-20T11:36:20.336+06:00  INFO 34580 --- [payment] [grpc-default-executor-2] o.b.c.payment.PaymentService             : 🔄 Processing payment for order abc121
+2025-07-20T11:36:25.337+06:00  INFO 34580 --- [payment] [grpc-default-executor-2] o.b.c.payment.PaymentService             : ✅ Payment processed for order abc121, Transaction ID: cc6bcdc1-7a45-4d99-aebf-37e1f297a316
+2025-07-20T11:37:06.300+06:00  INFO 34580 --- [payment] [SpringApplicationShutdownHook] o.s.g.s.lifecycle.GrpcServerLifecycle    : Completed gRPC server shutdown
