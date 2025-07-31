@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        #editor {
+            width: 100%;
+            height: 400px;
+            font-size: 16px;
+            line-height: 1.5;
+            padding: 10px;
+        }
+
+        #saveBtn {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        #status {
+            margin-top: 10px;
+            color: green;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-full m-0 overflow-hidden">
+<div class="flex flex-col h-full mx-auto max-w-screen-lg w-full px-4 py-4 box-border">
+
+    <!-- Header -->
+    <h1 class="text-3xl font-bold mb-4">📄 Doc. Editor</h1>
+
+    <!-- Top Row: Label + Button -->
+    <div class="flex items-center justify-between mb-4">
+        <p class="text-gray-800 text-lg font-semibold">Document</p>
+        <button class="text-black font-semibold px-4 py-2 rounded border hover:bg-gray-200" id="saveBtn">
+            Save
+        </button>
+    </div>
+
+    <!-- Scrollable Textarea -->
+    <div class="flex-1 flex flex-col">
+        <textarea
+                class="w-full h-full resize-none p-4 outline-none overflow-auto
+                 border border-gray-300 shadow-sm rounded
+                 focus:border-blue-400 focus:shadow-md"
+                id="editor"
+                placeholder="Type here..."></textarea>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+2025-07-31T12:52:27.799+06:00  INFO 11120 --- [_06_web_based_text_editor] [main] o.b.c._.Application                      : Starting Application using Java 17.0.9 with PID 11120 (/home/naushad/Coding/intimation/backend-IV/backend_IV/concurrent_programming/_06_web_based_text_editor/build/classes/java/main started by naushad in /home/naushad/Coding/intimation/backend-IV/backend_IV/concurrent_programming/_06_web_based_text_editor)
+2025-07-31T12:52:27.802+06:00  INFO 11120 --- [_06_web_based_text_editor] [main] o.b.c._.Application                      : No active profile set, falling back to 1 default profile: "default"
+2025-07-31T12:52:28.484+06:00  INFO 11120 --- [_06_web_based_text_editor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-31T12:52:28.494+06:00  INFO 11120 --- [_06_web_based_text_editor] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-31T12:52:28.494+06:00  INFO 11120 --- [_06_web_based_text_editor] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-07-31T12:52:28.521+06:00  INFO 11120 --- [_06_web_based_text_editor] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-31T12:52:28.521+06:00  INFO 11120 --- [_06_web_based_text_editor] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 681 ms
+2025-07-31T12:52:28.567+06:00  INFO 11120 --- [_06_web_based_text_editor] [main] o.b.c._.save.DocSaveService              : ✅ Document Save Service started.
+2025-07-31T12:52:28.606+06:00  INFO 11120 --- [_06_web_based_text_editor] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-07-31T12:52:28.792+06:00  INFO 11120 --- [_06_web_based_text_editor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-31T12:52:28.799+06:00  INFO 11120 --- [_06_web_based_text_editor] [main] o.b.c._.Application                      : Started Application in 1.411 seconds (process running for 1.905)
+2025-07-31T12:52:32.610+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-31T12:52:32.611+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-31T12:52:32.613+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-31T12:52:35.501+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-4] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:35.505+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-4] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:35.505+06:00  INFO 11120 --- [_06_web_based_text_editor] [Thread-1] o.b.c._.save.DocSaveService              : ✅ New version of Document doc_01 saved successfully.
+2025-07-31T12:52:35.506+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-4] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:35.507+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-4] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:35.507+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-2] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:35.508+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-4] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:35.508+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-4] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:35.508+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-3] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:35.509+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-5] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:41.012+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-5] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:41.014+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-5] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:41.015+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-7] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:41.016+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-5] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:41.017+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-5] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:41.017+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-8] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:41.018+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-9] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:41.019+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-5] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:41.020+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-10] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:42.803+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-6] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:42.805+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-11] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:42.805+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-6] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:42.806+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-6] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:42.807+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-12] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:42.807+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-1] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:42.807+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-6] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:42.808+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-2] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:42.808+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-6] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:42.809+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-4] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:44.002+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-7] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:44.003+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-7] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:44.003+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-5] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:44.003+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-3] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:44.003+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-7] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:44.004+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-7] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:44.004+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-6] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:44.004+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-7] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:44.004+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-7] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:44.005+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-8] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:48.523+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-8] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:48.523+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-9] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:48.524+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-8] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:48.524+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-10] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:48.525+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-8] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:48.525+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-11] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:48.525+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-8] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:48.526+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-8] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:48.526+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-12] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:48.526+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-1] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:49.555+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-9] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:49.555+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-2] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:49.556+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-9] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:49.556+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-4] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:49.556+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-9] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:49.557+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-9] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:49.557+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-5] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:49.557+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-9] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:49.557+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-3] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:49.558+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-5] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:52.507+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-6] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:52.507+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-10] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:52.508+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-10] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:52.508+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-8] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:52.508+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-10] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:52.508+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-10] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:52.509+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-9] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:52.509+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-10] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:52.509+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-10] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:52.509+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-11] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:52.804+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-1] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:52.804+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-12] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:52.804+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-1] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:52.805+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-1] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:52.805+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-12] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:52.805+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-1] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:52.805+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-2] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:52.806+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-12] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:52.806+06:00  INFO 11120 --- [_06_web_based_text_editor] [pool-2-thread-2] o.b.c._.save.DocSaveService              : ⛔ Document doc_01 save attempt failed. No changes detected.
+2025-07-31T12:52:52.806+06:00  INFO 11120 --- [_06_web_based_text_editor] [http-nio-8080-exec-1] o.b.c._.save.DocSaveService              : ✅ Document doc_01 processing sunmitted successfully.
+2025-07-31T12:52:55.712+06:00  INFO 11120 --- [_06_web_based_text_editor] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-31T12:52:55.716+06:00  INFO 11120 --- [_06_web_based_text_editor] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
